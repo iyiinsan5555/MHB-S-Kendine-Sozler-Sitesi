@@ -1,0 +1,47 @@
+:root {
+    --Main_Color: #EFEFEF;
+    --Second_Color: #CCCCCC;
+    --Third_Color: #999999;
+
+    --Font_Color: Black;
+    --Font_Size: 17px;
+    --Title_h1_Size: 40px;
+    --Title_h2_Size: 22.5px;
+    --Title_h3_Size: 20px;
+}
+
+body {
+    background-color: var(--Main_Color);
+    font-family: "Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans";
+    font-size: var(--Font_Size);
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: var(--Title_h1_Size);
+}
+
+h2 {
+    font-size: var(--Title_h2_Size);
+}
+
+h3 {
+    font-size: var(--Title_h3_Size);
+}
+
+h2, h3 {
+    color: var(--Main_Color);
+    text-shadow: var(--Font_Color) 0px 0px 5px;
+    
+}
+
+.list {
+    list-style: decimal;
+}
+
+.margin-top {
+    margin-top: 5px;
+}
